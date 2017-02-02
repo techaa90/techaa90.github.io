@@ -1,0 +1,9 @@
+		<?php
+	if(imagephp != null){
+		<img class="img-circle" name= "image" id ="imagephp" src="getImage.php?id=1" />
+	}else{
+		echo 
+	<img class="img-circle" name= "image" id ="imagephp" src="default-medium.png" />
+	}
+		
+ ?>  
